@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+    background-image: url('back.webp');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center -2%;
+    color: wheat;
+}
+main {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 60%;
+    background-color: rgba(98, 99, 99, 0.7);
+    border-radius: 12%;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 3em;
+    width: 80%;
+}
+p {
+    justify-content: center;
+    align-self: center;
+    font-size: 1.2em;
+}
+h1 {
+    justify-content: center;
+    align-self: center;
+}
+.radio,
+.check {
+    display: inline;
+    justify-content: center;
+    align-self: center;
+    transform: scale(1.2);
+}
+#submit {
+    padding: .5em;
+    margin: 1rem;
+    width: max-content;
+    align-self: center;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    box-shadow: 0px 0px 5px 5px black;
+}
+#name-label,
+#email-label,
+#number-label,
+#drop-label {
+    padding: 0.5em 0em;
+    font-size: 1.15em;
+}
+#comment {
+    align-self: flex-start;
+}
+.check-radio {
+    align-self: flex-start;
+    font: 1.15em sans-serif;
+}
+textarea {
+    height: 8em;
+}
+#name,
+#email,
+#number,
+#dropdown {
+    height: 2em;
+    font-size: inherit;
+}
+
+#title,
+#description {
+    color: black;
+}
